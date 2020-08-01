@@ -8,31 +8,38 @@
 
 	
 	h1{
-  font-size: 30px;
-  text-align: center;
-		border: 10px;
-		border-color: green;
-	color: red;
-  text-shadow: 2px 2px 4px blue;
+  
+		;
+  
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #555;
+  border-radius: 20px;
 }
 		h2{
-			margin-top: 400px;
+			font: italic bold 32px/50px Georgia, serif;
+			margin-top: 10px;
 			text-align: center;
-			margin-left: 65px;
-			color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+			
+			color: DodgerBlue;
+  text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px yellow;
 		}
 		h3{
+			
 			text-align: center;
-			margin-left: 65px;
 			margin-top: 20px;
 			color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 		}
+		
 	a{
 		align-self: center;
 		border-radius: 20px;
-		margin-left: 48%;
+		margin-left: 47%;
 		
 	}
 	
@@ -48,6 +55,27 @@ margin-top: 20px;
   	margin: 30px;
 
   }
+  .glow {
+  	color:  green;
+  	text-shadow: 2px 2px 4px blue;
+  font-size: 30px;
+  font-style: oblique;
+  color: white;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px red, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px green, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
   .center {
   text-align: center;
 }
