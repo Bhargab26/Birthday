@@ -93,6 +93,7 @@ margin-top: 20px;
   transition: background-color .3s;
   border: 1px solid #ddd;
   margin: 0 4px;
+  background-color: lightblue;
 }
 .pagination a.active {
   background-color: #4CAF50;
